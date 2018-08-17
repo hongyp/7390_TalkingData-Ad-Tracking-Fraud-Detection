@@ -7,11 +7,10 @@
 #### China is the largest mobile market in the world and therefore suffers from huge volumes of fraudulent traffic, With over 1 billion smart mobile devices in active use every month. 
 #### TalkingData, China’s largest independent big data service platform, covers over 70% of active mobile devices nationwide. It handles 3 billion clicks per day, of which 90% are potentially fraudulent. In order to always be one step ahead of fraudsters, we will build algorithms that predicts whether a user will download an app after clicking a mobile app ad. In this way, if the result is satisfactory, it can generate a model for TalkingData to build up its strategy to prevent from users clicking a fraudulent ad.
 
-
-
 #### Datasets: https://drive.google.com/file/d/1INF9CHPF4HZyCVSpUi63USloGykJQU8X/view?usp=sharing
 
 #### For the dataset, we have the train.csv for the training. After training, using the test.csv for our prediction. 
-#### But for our model, we have to create new features for our prediction. So, we translated this test.csv to test_small_all_features.csv that has 1,000,000 rows size with all needed columns (features). 
+#### But for our model, we have to create new features for our prediction. So, we translated this `test.csv` to `test_small_all_features.csv` that has 1,000,000 rows size with all needed columns (features). 
 #### Due to this small size (our computers are not powerful enough to run all data), for our second part of columns, we have 100% accuracy and it also caused 100% accuracy of the all-featured prediction, which maybe overfitted. If we can run all of the data, our output the prediction can be more reliable.
+#### For the `Prediction_original.ipynb`, we predicted with the original features but `Prediction_all_features.ipynb` with all related features.
 ### In conclusion, our new created featured successfully increase the prediction.
